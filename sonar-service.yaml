@@ -5,7 +5,7 @@ metadata:
     name: sonar
   name: sonar
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
     - port: 80
       targetPort: 9000
